@@ -1,0 +1,446 @@
+@charset "UTF-8";
+body {
+  font-family: "Karmina"; }
+
+div {
+  display: inline-block; }
+
+.container {
+  display: block;
+  max-width: 960px;
+  margin: 0 auto; }
+
+.underline {
+  text-decoration: underline; }
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  background: none;
+  border: none;
+  font-family: "Karmina";
+  font-size: 50px;
+  color: white !important;
+  position: absolute;
+  border: 5px solid white;
+  padding: 10px 40px;
+  border-radius: 15px;
+  margin-top: 20px;
+  float: left;
+  left: -20px;
+  -webkit-transition: all ease-out 0.25s;
+  -moz-transition: all ease-out 0.25s;
+  -o-transition: all ease-out 0.25s;
+  transition: all ease-out 0.25s; }
+  a:hover {
+    cursor: pointer;
+    text-decoration: none !important;
+    color: #f4cb0c !important;
+    border-color: #f4cb0c;
+    background-color: #52ac62;
+    -webkit-transition: all ease-out 0.25s;
+    -moz-transition: all ease-out 0.25s;
+    -o-transition: all ease-out 0.25s;
+    transition: all ease-out 0.25s; }
+
+h1, h2, h3 {
+  font-family: "Karmina" !important; }
+
+/* FORM */
+form {
+  display: inline-block;
+  text-align: center;
+  padding: 20px 40px;
+  margin: 0px;
+  font-size: 25px;
+  color: #0d291e;
+  /*width: 100%;*/
+  /*background-size: cover;*/
+  /*overflow: hidden;*/
+  background: url("../assets/images/fotm-bg.jpg") 0 0 no-repeat;
+  min-height: 50vh; }
+  form p {
+    display: inline-block; }
+  form label {
+    display: inline-block;
+    width: 100%;
+    margin-top: 50px; }
+  form input {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    font-family: "Museo Cyrl 500";
+    font-size: 30px !important;
+    padding: 10px; }
+
+.special-button {
+  margin-top: 50px;
+  padding: 10px; }
+  .special-button:hover {
+    cursor: pointer; }
+
+/* POPUP */
+.b-popup {
+  font-family: "Museo Cyrl 500";
+  width: 100%;
+  min-height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  text-align: center;
+  position: fixed;
+  top: 0px;
+  z-index: 150; }
+  .b-popup .b-popup-content {
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    background-color: white;
+    /*border-radius:5px;*/
+    box-shadow: 0px 0px 10px #000;
+    z-index: 200;
+    margin-top: 3em; }
+
+.popup-close {
+  display: inline-block;
+  border: none;
+  width: 50px;
+  height: 50px;
+  background: url("../assets/images/popup-close.png") 0 0 no-repeat;
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  /*display: inline-block;*/
+  /*float: right;*/
+  z-index: 100; }
+  .popup-close:hover {
+    background: url("../assets/images/popup-close.png") 0 0 no-repeat; }
+
+#send-catalogue-popup form input {
+  width: 100%; }
+
+/* HEADER */
+header {
+  z-index: 100;
+  position: fixed;
+  font-family: "Karmina";
+  font-size: 50px;
+  color: white;
+  width: 100%;
+  padding-bottom: 20px;
+  -webkit-transition: all ease-out 0.25s;
+  -moz-transition: all ease-out 0.25s;
+  -o-transition: all ease-out 0.25s;
+  transition: all ease-out 0.25s; }
+  header .tel {
+    position: absolute;
+    border: 5px solid white;
+    padding: 10px 40px;
+    border-radius: 15px;
+    margin-top: 20px;
+    float: right;
+    right: -20px; }
+
+.header-bg {
+  background: rgba(82, 172, 98, 0.7);
+  -webkit-transition: all ease-out 0.25s;
+  -moz-transition: all ease-out 0.25s;
+  -o-transition: all ease-out 0.25s;
+  transition: all ease-out 0.25s;
+  z-index: 100; }
+
+/* PRESENT */
+.present {
+  background: url("../assets/images/present-bg.jpg") center center no-repeat;
+  background-size: cover; }
+  .present .caption {
+    margin-top: 235px;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    color: white;
+    line-height: 0px;
+    font-size: 100px;
+    font-family: "Karmina";
+    width: 50%;
+    float: right;
+    text-align: center; }
+    .present .caption p {
+      margin-top: 40px;
+      width: 100%; }
+    .present .caption .warm {
+      margin-top: 105px;
+      font-size: 165px;
+      color: #ffa500; }
+    .present .caption .winter {
+      margin-top: 85px;
+      font-size: 50px;
+      color: #14ecff; }
+    .present .caption .with {
+      font-size: 50px;
+      margin-top: 45px; }
+    .present .caption .udens {
+      font-size: 135px;
+      margin-top: 75px; }
+    .present .caption .labels {
+      width: 100%;
+      font-size: 20px; }
+      .present .caption .labels .madein {
+        margin-top: 100px; }
+        .present .caption .labels .madein .bg {
+          width: 182px;
+          height: 151px;
+          background: url("../assets/images/present-label-madein.png") center center no-repeat; }
+      .present .caption .labels .guaranty {
+        margin-top: 100px; }
+        .present .caption .labels .guaranty .bg {
+          width: 158px;
+          height: 141px;
+          background: url("../assets/images/present-label-guaranty.png") center center no-repeat; }
+  .present .who-we-are {
+    margin-left: 60px;
+    color: white;
+    font-size: 30px;
+    width: 100%;
+    margin-top: 80px;
+    font-family: "Museo Cyrl 500"; }
+  .present .who-we-are-2 {
+    margin-top: 0px;
+    margin-bottom: 60px; }
+
+/* ADVANTAGES */
+.advantages {
+  background: url("../assets/images/advantages-bg.png") center center no-repeat fixed; }
+  .advantages .container {
+    padding-bottom: 60px; }
+  .advantages h1 {
+    font-size: 90px; }
+  .advantages h2 {
+    font-size: 60px; }
+  .advantages p {
+    display: inline; }
+  .advantages .icon {
+    height: 250px;
+    margin-top: 60px; }
+  .advantages .savings {
+    background: url("../assets/images/advantages-savings-icon.png") center center no-repeat; }
+  .advantages .regulate {
+    background: url("../assets/images/advantages-regulate-icon.png") center center no-repeat; }
+  .advantages .dontworry {
+    background: url("../assets/images/advantages-dontworry-icon.png") center center no-repeat; }
+  .advantages .caption {
+    margin-left: -20px;
+    padding: 20px 30px;
+    background-color: white;
+    color: #ffa500; }
+  .advantages .info {
+    margin-left: 230px;
+    margin-top: 60px;
+    width: 641px;
+    height: 248px;
+    background: url("../assets/images/advantages-info.png") center center no-repeat; }
+  .advantages .termostat {
+    margin-top: 60px;
+    height: 285px;
+    background: url("../assets/images/advantages-regulate-image.png") center center no-repeat; }
+  .advantages .text {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-family: "Museo Cyrl 500";
+    color: #327bb9;
+    font-size: 30px; }
+  .advantages .importance {
+    color: #52ac62;
+    padding: 5px; }
+  .advantages .bange {
+    margin-top: 30px; }
+  .advantages .flame {
+    height: 250px;
+    background: url("../assets/images/advantages-bange-1.png") center center no-repeat; }
+  .advantages .child {
+    height: 250px;
+    background: url("../assets/images/advantages-bange-2.png") center center no-repeat;
+    float: right;
+    margin-right: 60px; }
+  .advantages .five {
+    height: 250px;
+    background: url("../assets/images/advantages-bange-3.png") center center no-repeat; }
+  .advantages .twenty-five {
+    height: 250px;
+    background: url("../assets/images/advantages-bange-4.png") center center no-repeat;
+    float: right; }
+  .advantages .docs {
+    height: 250px;
+    background: url("../assets/images/advantages-bange-5.png") center center no-repeat;
+    margin-bottom: 60px; }
+  .advantages .description {
+    margin-top: 60px;
+    font-family: "Museo Cyrl 500";
+    color: #327bb9;
+    font-size: 30px;
+    float: right; }
+  .advantages .text-right {
+    text-align: right; }
+  .advantages .full {
+    width: 100%; }
+
+/* MORE */
+.more {
+  background: url("../assets/images/more-bg.png") center center no-repeat fixed; }
+  .more h1 {
+    display: inline-block;
+    margin-top: 60px;
+    width: 100%;
+    text-align: center;
+    font-size: 90px;
+    color: #42372f;
+    background-color: white;
+    padding: 20px 0;
+    border-radius: 20px; }
+  .more p {
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: "Museo Cyrl 500";
+    color: #42372f;
+    text-indent: 1.5em;
+    /* Отступ первой строки */
+    text-align: justify;
+    /* Выравнивание по ширине */ }
+  .more .photo {
+    margin: 60px 0;
+    display: inline-block;
+    height: 500px; }
+  .more .photo-1 {
+    background: url("../assets/images/gallery_preview_006.jpg") center center no-repeat; }
+  .more .photo-2 {
+    background: url("../assets/images/gallery_preview_009.jpg") center center no-repeat; }
+  .more .photo-3 {
+    background: url("../assets/images/gallery_preview_004.jpg") center center no-repeat; }
+
+/* DESIGN */
+.design {
+  min-height: 1000px;
+  background: url("../assets/images/design-bg.jpg") top center no-repeat;
+  background-size: cover; }
+  .design .orange {
+    color: #f4cb0c; }
+  .design h1 {
+    display: inline-block;
+    margin-top: 60px;
+    width: 100%;
+    text-align: center;
+    font-size: 90px;
+    color: white;
+    background-color: #52ac62;
+    padding: 20px 0;
+    border-radius: 20px; }
+  .design .design-item {
+    display: inline-block;
+    text-align: center;
+    margin-top: 30px; }
+    .design .design-item .item-image {
+      width: 290px;
+      height: 290px;
+      margin-top: 20px;
+      margin-left: 20px; }
+    .design .design-item .item-caption {
+      display: inline-block;
+      font-family: "Museo Cyrl 500";
+      font-size: 40px;
+      margin-left: 20px;
+      width: 100%;
+      text-align: center;
+      color: #42372f; }
+    .design .design-item .img-1 {
+      background: url("../assets/images/design-item-001.png"); }
+    .design .design-item .img-2 {
+      background: url("../assets/images/design-item-002.png"); }
+    .design .design-item .img-3 {
+      background: url("../assets/images/design-item-003.png"); }
+  .design .desc {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    font-family: "Museo Cyrl 500";
+    font-size: 40px;
+    color: #42372f;
+    margin-top: 60px; }
+  .design .extra {
+    width: 100%;
+    display: inline-block;
+    margin-top: 30px;
+    text-align: center;
+    font-family: "Karmina";
+    font-size: 60px;
+    color: #42372f; }
+    .design .extra .highlight-1 {
+      color: #f4cb0c;
+      background-color: #52ac62;
+      padding: 30px;
+      border-radius: 60px; }
+    .design .extra .highlight-2 {
+      color: #52ac62;
+      background-color: #f4cb0c;
+      padding: 30px;
+      border-radius: 60px; }
+  .design .for-button {
+    width: 100%;
+    text-align: center; }
+  .design a {
+    color: #42372f !important;
+    border-color: #42372f;
+    display: inline-block;
+    position: inherit;
+    float: none;
+    margin-top: 30px;
+    margin-bottom: 60px; }
+    .design a:hover {
+      color: #f4cb0c !important;
+      border-color: #f4cb0c; }
+
+/* LEAVE-REQUEST */
+.leave-request {
+  background: url("../assets/images/leave-request-bg.jpg") center center no-repeat;
+  text-align: center; }
+  .leave-request p {
+    width: 100%;
+    font-family: "Museo Cyrl 500";
+    font-size: 40px;
+    color: white;
+    display: inline-block;
+    margin-top: 120px; }
+  .leave-request a {
+    margin-top: 60px;
+    position: inherit;
+    float: none;
+    margin-bottom: 120px; }
+  .leave-request .blue-text {
+    color: #14ecff; }
+  .leave-request .orange-text {
+    color: #ffa500; }
+
+/* CONTACTS */
+.contacts {
+  background: url("../assets/images/contacts-bg.jpg") center center no-repeat;
+  text-align: center; }
+  .contacts h1 {
+    display: inline-block;
+    color: #42372f;
+    margin-top: 60px;
+    font-size: 90px;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px 40px;
+    border-radius: 20px;
+    width: 100%; }
+  .contacts .contact-block {
+    color: #42372f;
+    width: 100%;
+    font-size: 40px;
+    margin-top: 60px;
+    font-family: "Museo Cyrl 500";
+    margin-bottom: 60px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px 40px;
+    border-radius: 20px; }
+  .contacts p {
+    margin-top: 30px;
+    margin-bottom: 30px; }

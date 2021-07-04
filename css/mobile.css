@@ -1,0 +1,32 @@
+/* LARGE DEVICES > 1200px */
+/* MEDIUM DEVICES < 1200 */
+/* SMALL DEVICES > 992 */
+@media screen and (max-width: 992px) {
+  .advantages .info {
+    margin-left: 0;
+    width: 100%; } }
+
+/* EXTRA-SMALL DEVICES < 768 */
+@media screen and (max-width: 768px) {
+  .more .photo {
+    width: 100%; }
+  .design-item {
+    text-align: center; }
+  .full {
+    text-align: center !important; }
+  .bange {
+    float: none !important;
+    width: 200px !important;
+    height: 200px !important;
+    background-size: cover !important;
+    display: inline-block; }
+  .text {
+    text-align: justify !important; }
+  .description {
+    text-align: justify !important; }
+  header a, header .tel {
+    font-size: 0.8em; }
+  h1, h2, h3 {
+    font-size: 4em !important; }
+  .contacts p {
+    font-size: 0.7em; } }
